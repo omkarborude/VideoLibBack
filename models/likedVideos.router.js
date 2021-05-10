@@ -9,6 +9,7 @@ const likedVideosSchema = new mongoose.Schema({
   videos:[{_id:{type:mongoose.Schema.Types.ObjectId,ref:'Video'},active:Boolean}]
 })
 
+
 const LikedVideo = mongoose.model('LikedVideo',likedVideosSchema);
 
 module.exports = LikedVideo;

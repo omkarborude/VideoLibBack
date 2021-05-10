@@ -5,4 +5,5 @@ const initializeConnectionDb = async() =>{
     console.log("db connected"); 
 }
 
+
 module.exports = initializeConnectionDb;

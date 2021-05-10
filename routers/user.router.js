@@ -22,7 +22,6 @@ router.route("/signup")
 
 		const NewUser = new User(getData);
 		const updateuserinDB = await NewUser.save();
-
 		res.status(200).json({
 			response: {
 				username: updateuserinDB.username,

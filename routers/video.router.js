@@ -14,7 +14,6 @@ router.route("/")
     }
 })
 .post(async(req,res)=> {
-
   try{
     const video = req.body;
     const updateVideo = new Video(video);
